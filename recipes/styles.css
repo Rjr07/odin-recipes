@@ -1,13 +1,36 @@
-* {
+html {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #ffeec0;
+    background-color: #ffdbdb;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
 }
 
-.main {
-    font-size: 35px;
+body {
+    font-size: large;
+    margin-left: 30px;
 }
+
+
 
 img {
+    margin: 20px;
     height: auto;
     width: 600px;
+    border: solid black;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    padding: 10px;
+    width: 750px;
+    margin: auto;
+    border-bottom: solid rgb(0, 0, 0)
+}
+
+h2 {
+    text-decoration: underline;
 }
