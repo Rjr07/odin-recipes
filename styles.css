@@ -1,12 +1,30 @@
-* {
+html {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #ffeec0;
+    background-color: #ffdbdb;
 }
 
-.main {
+body {
     text-align: center;
+    display: block;
 }
 
 li {
-    font-size: 19px;
+    font-size: 25px;
+    list-style: none;
 }
+
+img {
+    width: 400px;
+    height: auto;
+    border: solid rgb(0, 0, 0);
+    margin: 10px;
+}
+h1 {
+    padding: 10px;
+    width: 750px;
+    margin: auto;
+    border-bottom: solid rgb(0, 0, 0);
+    font-size: 40px;
+    
+}
+
